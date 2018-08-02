@@ -57,6 +57,12 @@ cd brigade-matchmaker/components/mongodb
 ./bin/install-mongodb.sh
 ```
 
+Create the database directory:
+```
+cd brigade-matchmaker/components/mongodb
+mkdir -p ./var/mongodb-data
+```
+
 To start mongodb:
 ```
 cd brigade-matchmakercomponents/mongodb
